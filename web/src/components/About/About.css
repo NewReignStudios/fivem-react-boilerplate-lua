@@ -1,0 +1,32 @@
+.info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid var(--borderColor);
+    border-radius: 5px;
+    overflow-y: scroll;
+    flex: 1 0 0;
+}
+
+.info-license {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.info-modal-header {
+    color: var(--headerColor);
+    display: flex;
+    justify-content: center;
+    padding: 0 0 15px 0;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.1rem;
+}
+
+.info-modal-body {
+    color: var(--textColor);
+    padding: 4px 4px 0 4px;
+    font-size: 0.85rem;
+    text-align: left;
+}
