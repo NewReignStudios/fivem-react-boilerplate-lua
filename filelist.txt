@@ -1,0 +1,10 @@
+client
+server
+framework
+web\build\assets\*.js
+web\build\assets\*.css
+web\build\*.html
+Third Party Licenses
+config.lua
+fxmanifest.lua
+README.md
